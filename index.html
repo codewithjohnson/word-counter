@@ -12,7 +12,7 @@
     <div class="container  border border-secondary text-white-50  py-5 px-3 mx-auto mt-5">
      <h2 class = "font-monospace mb-3">Word Counter</h2>
      <div class="form-floating">
-      <textarea class="form-control bg-dark text-white text-break text-opacity-75 lh-sm" placeholder="Leave a comment here" id="floatingTextarea2" onkeyup="getWordCount()" style="height: 300px"></textarea>
+      <textarea class="form-control bg-dark text-white text-break text-opacity-75 lh-sm" placeholder="Leave a comment here" id="floatingTextarea2" onkeyup="getWordCount()" onpaste= "getWordCount()" style="height: 300px"></textarea>
       <label for="floatingTextarea2">Enter Your Words</label></div>
       <div class="below d-flex justify-content-around">
         <div class="word-count text-capitalize fw-bold text-info py-3">Word count: <span id="wordcount">0</span> </div>
